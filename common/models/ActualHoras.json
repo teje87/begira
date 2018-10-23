@@ -1,0 +1,43 @@
+{
+  "name": "ActualHoras",
+  "options": {
+    "idInjection": false,
+    "mysql": {
+      "schema": "iline",
+      "table": "Actual_Horas"
+    }
+  },
+  "properties": {
+    "id": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "id": 1,
+      "mysql": {
+        "columnName": "ID",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "empaquetados": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "EMPAQUETADOS",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    }
+  }
+}
